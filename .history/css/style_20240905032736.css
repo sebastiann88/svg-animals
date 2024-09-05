@@ -1,0 +1,59 @@
+body {
+	height: 280vh;
+	margin: 0;
+	background-color: #EEF9FF;
+}
+
+.line-container {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+svg {
+	display: inline-block;
+	height: 90%;
+	width: 100%;
+	padding-top: 12%;
+}
+
+.st0 {
+	fill: #846c52;
+}
+.st1 {
+	fill: #efab64;
+}
+.st2 {
+	fill: #b8a8b2;
+}
+.st3 {
+	fill: #c1b3aa;
+}
+.st4 {
+	fill: #eccbbc;
+}
+.st5 {
+	fill: none;
+	stroke: #422711;
+	stroke-width: 0.75;
+	stroke-miterlimit: 10;
+}
+.st6 {
+	fill: #826f64;
+}
+
+.text {
+	font: 14pt sans-serif; 
+	fill: red;
+}
+
+div.text-container {
+	width: 100%;
+	height: 100vh;
+}
+
+section {
+	display: block;
+	height: 100vh;
+}
