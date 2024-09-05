@@ -1,13 +1,11 @@
 body {
 	height: 280vh;
 	margin: 0;
-	padding-top: 16em;
 	background-color: #EEF9FF;
-	overflow-x: hidden;
 }
 
 main {
-	transform: translateX(10px);
+	
 }
 
 .line-container {
