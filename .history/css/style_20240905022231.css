@@ -44,6 +44,6 @@ div.text-container {
 }
 
 section {
-	display: block;
 	height: 100vh;
+	display: block;
 }

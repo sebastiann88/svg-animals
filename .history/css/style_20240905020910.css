@@ -1,0 +1,19 @@
+body {
+	height: 280vh;
+	margin: 0;
+}
+
+.line-container {
+	position: static;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+
+svg {
+	display: inline-block;
+	height: 90%;
+	padding-top: 12%;
+}
+
