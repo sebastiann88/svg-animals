@@ -1,7 +1,6 @@
 body {
 	height: 280vh;
 	margin: 0;
-	background-color: #EEF9FF;
 }
 
 .line-container {
@@ -13,9 +12,8 @@ body {
 
 svg {
 	display: inline-block;
-	height: 90%;
+	height: 100%;
 	width: 100%;
-	padding-top: 12%;
 }
 
 .st0 {
