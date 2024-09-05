@@ -1,5 +1,5 @@
 body {
-	height: 280vh;
+	height: 500vh;
 	margin: 0;
 }
 
@@ -13,6 +13,7 @@ body {
 
 svg {
 	display: inline-block;
-	height: 90%;
-	padding-top: 12%;
+	height: 94%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
