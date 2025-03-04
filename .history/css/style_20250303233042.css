@@ -88,9 +88,9 @@ section {
 	left: 80px;
 }
 
-/* @media (min-width: 480px) {
+@media (min-width: 480px) {
 
-} */
+}
 
 @media (min-width: 768px) {
 
@@ -140,5 +140,9 @@ section {
 	.section-3 {
 		position: static;
 	}
+
+}
+
+@media (min-width: 1400px) {
 
 }

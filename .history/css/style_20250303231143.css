@@ -1,5 +1,4 @@
 body {
-	height: 100vh;
 	margin: 0;
 	background-color: #EEF9FF;
 	overflow-x: hidden;
@@ -7,7 +6,7 @@ body {
 
 main {
 	position: relative;
-	margin: 5em 25% 0 auto;
+	margin: 3em 25% 0 auto;
 }
 
 .line-container {
@@ -58,7 +57,7 @@ div.text-container {
 }
 
 .line-container {
-	margin: 1.25em 0 0 20%;
+	margin-left: 15%;
 }
 
 section {
@@ -88,25 +87,34 @@ section {
 	left: 80px;
 }
 
-/* @media (min-width: 480px) {
+@media (min-width: 480px) {
 
-} */
+}
 
 @media (min-width: 768px) {
 
 	.line-container {
-		margin: 1.25em 0 0 30%;
+		margin-left: 35%;
 	}
 
 }
 
 @media (min-width: 992px) {
 
+	body {
+		height: 280vh;
+	}
+
+	.line-container {
+		margin-left: 35%;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		text-align: left;
+		height: 100vh;
 		width: 20em;
 		margin: 0 25% 0 auto;
 	}
@@ -116,7 +124,6 @@ section {
 @media (min-width: 1200px) {
 
 	body {
-		height: 280vh;
 		padding-top: 6em;
 	}
 
@@ -125,13 +132,12 @@ section {
 	}
 
 	.line-container {
-		margin: 0 0 0 9%;
+		margin: 0 0 0 15em;
 		width: 100%;
 	}
 
 	section {
-		height: 100vh;
-		margin-left: 75%;
+		margin-left: 65em;
 		justify-content: center;
 	}
 
@@ -140,5 +146,9 @@ section {
 	.section-3 {
 		position: static;
 	}
+
+}
+
+@media (min-width: 1400px) {
 
 }

@@ -1,13 +1,8 @@
 body {
-	height: 100vh;
+	height: 280vh;
 	margin: 0;
 	background-color: #EEF9FF;
 	overflow-x: hidden;
-}
-
-main {
-	position: relative;
-	margin: 5em 25% 0 auto;
 }
 
 .line-container {
@@ -58,55 +53,60 @@ div.text-container {
 }
 
 .line-container {
-	margin: 1.25em 0 0 20%;
+	margin-left: 15%;
 }
 
 section {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	justify-content: center;
 	text-align: left;
 	width: 20em;
+	margin: 0 25% 0 auto;
 }
 
 .section-1 {
-	position: absolute;
+	position: fixed;
 	top: 50px;
 	left: 80px;
 }
 
 .section-2 {
-	position: absolute;
-	top: 400px;
+	position: fixed;
+	top: 450px;
 	left: 80px;
 }
 
 .section-3 {
-	position: absolute;
-	top: 750px;
+	position: fixed;
+	top: 850px;
 	left: 80px;
 }
 
-/* @media (min-width: 480px) {
+@media (min-width: 480px) {
 
-} */
+}
 
 @media (min-width: 768px) {
 
 	.line-container {
-		margin: 1.25em 0 0 30%;
+		margin-left: 35%;
 	}
 
 }
 
 @media (min-width: 992px) {
 
+	.line-container {
+		margin-left: 35%;
+	}
+
 	section {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		text-align: left;
+		height: 100vh;
 		width: 20em;
 		margin: 0 25% 0 auto;
 	}
@@ -115,23 +115,13 @@ section {
 
 @media (min-width: 1200px) {
 
-	body {
-		height: 280vh;
-		padding-top: 6em;
-	}
-
-	main {
-		transform: translateX(10px);
-	}
-
 	.line-container {
-		margin: 0 0 0 9%;
-		width: 100%;
+		margin-left: initial;
+		width: 85%;
 	}
 
 	section {
-		height: 100vh;
-		margin-left: 75%;
+		margin-left: 60%;
 		justify-content: center;
 	}
 
@@ -140,5 +130,9 @@ section {
 	.section-3 {
 		position: static;
 	}
+
+}
+
+@media (min-width: 1400px) {
 
 }
