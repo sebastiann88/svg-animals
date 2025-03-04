@@ -117,8 +117,7 @@ section {
 
 @media (min-width: 1200px) {
 	body {
-		height: 100vh;
-		padding-top: 4em;
+		height: 280vh;
 	}
 
 	main {
@@ -132,7 +131,7 @@ section {
 	}
 
 	section {
-		height: 70vh;
+		height: 100vh;
 		margin-left: 75%;
 		justify-content: center;
 	}
@@ -151,7 +150,4 @@ section {
 		padding-top: 4em;
 	}
 
-	section {
-		height: 100vh;
-	}
 }

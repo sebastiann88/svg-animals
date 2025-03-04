@@ -116,14 +116,14 @@ section {
 }
 
 @media (min-width: 1200px) {
+
 	body {
-		height: 100vh;
-		padding-top: 4em;
+		height: 280vh;
+		padding-top: 6em;
 	}
 
 	main {
 		transform: translateX(10px);
-		margin: 0 25% 0 auto;
 	}
 
 	.line-container {
@@ -132,7 +132,7 @@ section {
 	}
 
 	section {
-		height: 70vh;
+		height: 100vh;
 		margin-left: 75%;
 		justify-content: center;
 	}
@@ -142,16 +142,5 @@ section {
 	.section-3 {
 		position: static;
 	}
-}
 
-@media (min-width: 1648px) {
-
-	body {
-		height: 280vh;
-		padding-top: 4em;
-	}
-
-	section {
-		height: 100vh;
-	}
 }
