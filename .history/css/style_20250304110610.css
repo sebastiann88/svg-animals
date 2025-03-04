@@ -11,6 +11,7 @@ main {
 }
 
 .headline-container {
+	margin-top: 12em;
 	padding: 0 5px 0 5px;
 }
 
@@ -19,8 +20,7 @@ main {
 	text-align: center;
 	font-size: 1.0125em;
 	font-weight: 300;
-	margin: 89.75vh auto 0 auto;
-	padding-top: 15px;
+	margin: 3em auto 0 auto;
 	width: 100%;
 	max-width: 42em;
 }
@@ -124,10 +124,6 @@ section {
 		visibility: visible;
 	}
 
-	.headline {
-		margin: 9em auto 0 auto;
-	}
-
 }
 
 @media (min-width: 992px) {
@@ -174,10 +170,6 @@ section {
 	.section-2,
 	.section-3 {
 		position: static;
-	}
-
-	.headline {
-		margin: 0 auto;
 	}
 }
 

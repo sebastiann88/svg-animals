@@ -175,10 +175,6 @@ section {
 	.section-3 {
 		position: static;
 	}
-
-	.headline {
-		margin: 0 auto;
-	}
 }
 
 @media (min-width: 1648px) {
