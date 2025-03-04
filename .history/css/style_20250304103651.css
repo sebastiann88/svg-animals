@@ -155,13 +155,13 @@ section {
 
 	.line-container {
 		top: 0;
-		margin: 5em 0 0 9%;
+		margin: 8em 0 0 9%;
 		width: 100%;
 	}
 
 	section {
 		height: 70vh;
-		margin: 1.75em 0 0 75%;
+		margin: 3em 0 0 75%;
 		justify-content: center;
 	}
 
